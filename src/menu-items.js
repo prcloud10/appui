@@ -3,31 +3,26 @@ export default {
         {
             id: 'navigation',
             title: 'Infra',
-            caption: '',
             type: 'group',
-            icon: '',
             children: [
                 {
-                    id: 'dashboard',
-                    title: 'Dashboard',
+                    id: 'local',
+                    title: 'Local',
                     type: 'item',
-                    url: '/dashboard',
+                    url: '/local',
                 },
-                {
-                    id: 'bootstrap',
-                    title: 'Bootstrap',
+                /*{
+                    id: 'cluster',
+                    title: 'Cluster',
                     type: 'item',
-                    url: '/bootstrap',
-                    target: true,
-                },
+                    url: '/cluster',
+                },*/
             ],
         },
-        {
-            id: 'cloud',
-            title: 'Cloud',
-            caption: '',
+        /*{
+            id: 'pages',
+            title: 'Services',
             type: 'group',
-            icon: '',
             children: [
                 {
                     id: 'kubernetes',
@@ -36,6 +31,6 @@ export default {
                     url: '/kubernetes',
                 },
             ],
-        }  
-    ]
+        },*/
+    ],
 };

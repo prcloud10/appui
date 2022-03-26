@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Grid, makeStyles, Hidden } from '@material-ui/core';
 
+
 import SearchSection from './SearchSection';
 import ProfileSection from './ProfileSection';
 import NotificationSection from './NotificationSection';
